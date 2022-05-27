@@ -33,7 +33,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'tosokr-todo-api'
+        app-name: 'tpham37-todo-api'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a516f81e8ea8414f81361e62b3d3c2e3 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
